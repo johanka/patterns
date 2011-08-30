@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>se.sigma.tutorial.patterns</groupId>
+    <artifactId>maze</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>The Patterns Maze example</name>
+    <parent>
+        <groupId>se.sigma.tutorial</groupId>
+        <artifactId>patterns</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+</project>
