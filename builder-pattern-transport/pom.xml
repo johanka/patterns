@@ -2,12 +2,12 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>se.sigma.tutorial.patterns</groupId>
-    <artifactId>abstract-factory-pattern-car</artifactId>
+    <artifactId>builder-pattern-transport</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>The Abstract Factory Pattern - Car implementation</name>
+    <name>The Builder Pattern - A Transport implementation</name>
     <description>
-        A small implementation of the Factory Pattern using two kinds of cars.
+        A implementation of the Builder Pattern using different constructions of transports.
     </description>
     <parent>
         <groupId>se.sigma.tutorial</groupId>

@@ -8,7 +8,8 @@
     <name>The Patterns Guide</name>
     <modules>
         <module>maze</module>
-        <module>abstract-factory-pattern</module>
+        <module>abstract-factory-pattern-car</module>
+        <module>builder-pattern-transport</module>
     </modules>
     <dependencies>
         <dependency>
