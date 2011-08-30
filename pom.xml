@@ -8,6 +8,7 @@
     <name>The Patterns Guide</name>
     <modules>
         <module>maze</module>
+        <module>abstract-factory-pattern</module>
     </modules>
     <dependencies>
         <dependency>
