@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>se.sigma.tutorial.patterns</groupId>
+    <artifactId>abstract-factory-pattern-car</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>The Abstract Factory Pattern Car implementation</name>
+    <parent>
+        <groupId>se.sigma.tutorial</groupId>
+        <artifactId>patterns</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+</project>
