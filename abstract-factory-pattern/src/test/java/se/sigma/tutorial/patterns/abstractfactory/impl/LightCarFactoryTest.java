@@ -1,10 +1,9 @@
-package se.sigma.tutorial.patterns.abstracrfactory.impl;
+package se.sigma.tutorial.patterns.abstractfactory.impl;
 
 import org.junit.Test;
-import se.sigma.patterns.abstractfactory.Car;
-import se.sigma.patterns.abstractfactory.CarFactory;
-import se.sigma.tutorial.patterns.abstractfactory.impl.LightCar;
-import se.sigma.tutorial.patterns.abstractfactory.impl.LightCarFactory;
+import se.sigma.tutorial.patterns.abstractfactory.Car;
+import se.sigma.tutorial.patterns.abstractfactory.CarFactory;
+import se.sigma.tutorial.patterns.abstractfactory.impl.*;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
