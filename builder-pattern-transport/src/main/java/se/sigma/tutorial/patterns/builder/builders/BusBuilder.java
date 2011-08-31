@@ -5,7 +5,6 @@ public class BusBuilder extends AbstractTransportBuilder {
     private static final String MODEL = "Volvo B58";
     private static final String TIME_PLAN = "Sqrubben - Trondheim";
 
-
     @Override
     public void buildType() {
         transport.setType(TYPE);
