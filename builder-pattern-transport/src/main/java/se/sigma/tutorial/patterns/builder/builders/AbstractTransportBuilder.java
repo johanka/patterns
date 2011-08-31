@@ -14,12 +14,12 @@ abstract class AbstractTransportBuilder {
         return transport;
     }
 
-    public void buildType(String type) {
+    public void buildType() {
     }
 
-    public void buildModel(String model) {
+    public void buildModel() {
     }
 
-    public void buildTimePlan(String timePlan) {
+    public void buildTimePlan() {
     }
 }

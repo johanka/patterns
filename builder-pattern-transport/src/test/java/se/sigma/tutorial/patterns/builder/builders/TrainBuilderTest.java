@@ -13,21 +13,19 @@ public class TrainBuilderTest {
 
     @Test
     public void testBuildX2Train() {
-        TrainBuilder trainBuilder = new TrainBuilder();
-
-        buildTrain(TYPE, MODEL, TIME_PLAN, trainBuilder);
-
-        Transport transport = trainBuilder.getTransport();
+        AbstractTransportBuilder trainBuilder = new TrainBuilder();
+        Transport transport = buildTrain(trainBuilder);
 
         assertThat(transport.getType(), is(TYPE));
         assertThat(transport.getModel(), is(MODEL));
         assertThat(transport.getTimePlan(), is(TIME_PLAN));
     }
 
-    private void buildTrain(String type, String model, String timePlan, TrainBuilder trainBuilder) {
+    private Transport buildTrain(AbstractTransportBuilder trainBuilder) {
         trainBuilder.createNewTransport();
-        trainBuilder.buildType(type);
-        trainBuilder.buildModel(model);
-        trainBuilder.buildTimePlan(timePlan);
+        trainBuilder.buildType();
+        trainBuilder.buildModel();
+        trainBuilder.buildTimePlan();
+        return trainBuilder.getTransport();
     }
 }
