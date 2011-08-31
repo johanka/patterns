@@ -2,7 +2,7 @@ package se.sigma.tutorial.patterns.builder.builders;
 
 import se.sigma.tutorial.patterns.builder.Transport;
 
-public abstract class AbstractTransportBuilder {
+public abstract class TransportBuilder {
     protected Transport transport;
 
     public void createNewTransport() {

@@ -1,6 +1,6 @@
 package se.sigma.tutorial.patterns.builder.builders;
 
-public class TrainBuilder extends AbstractTransportBuilder {
+public class TrainBuilder extends TransportBuilder {
 
     private static final String TYPE = "Train";
     private static final String MODEL = "X2";

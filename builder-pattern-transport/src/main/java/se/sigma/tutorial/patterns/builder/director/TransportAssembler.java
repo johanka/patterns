@@ -1,13 +1,12 @@
 package se.sigma.tutorial.patterns.builder.director;
 
 import se.sigma.tutorial.patterns.builder.Transport;
-import se.sigma.tutorial.patterns.builder.builders.AbstractTransportBuilder;
+import se.sigma.tutorial.patterns.builder.builders.TransportBuilder;
 
 public class TransportAssembler {
-    private Transport transport;
-    private AbstractTransportBuilder builder;
+    private TransportBuilder builder;
 
-    public void setTransportBuilder(AbstractTransportBuilder builder) {
+    public void setTransportBuilder(TransportBuilder builder) {
         this.builder = builder;
     }
 

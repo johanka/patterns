@@ -3,7 +3,7 @@ package se.sigma.tutorial.patterns.builder.director;
 import org.junit.Before;
 import org.junit.Test;
 import se.sigma.tutorial.patterns.builder.Transport;
-import se.sigma.tutorial.patterns.builder.builders.AbstractTransportBuilder;
+import se.sigma.tutorial.patterns.builder.builders.TransportBuilder;
 import se.sigma.tutorial.patterns.builder.builders.BusBuilder;
 import se.sigma.tutorial.patterns.builder.builders.TrainBuilder;
 
@@ -12,7 +12,7 @@ import static org.junit.Assert.assertThat;
 
 public class TransportAssemblerTest {
     private TransportAssembler transportAssembler;
-    private AbstractTransportBuilder builder;
+    private TransportBuilder builder;
 
     @Before
     public void setUp() {

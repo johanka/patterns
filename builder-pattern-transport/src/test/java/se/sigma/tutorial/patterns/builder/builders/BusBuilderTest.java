@@ -14,7 +14,7 @@ public class BusBuilderTest {
 
     @Test
     public void testBuildVolvoBus() {
-        AbstractTransportBuilder busBuilder = new BusBuilder();
+        TransportBuilder busBuilder = new BusBuilder();
         Transport transport = buildBus(busBuilder);
 
         assertThat(transport.getType(), is(TYPE));
@@ -22,7 +22,7 @@ public class BusBuilderTest {
         assertThat(transport.getTimePlan(), is(TIME_PLAN));
     }
 
-    private Transport buildBus(AbstractTransportBuilder busBuilder) {
+    private Transport buildBus(TransportBuilder busBuilder) {
         busBuilder.createNewTransport();
         busBuilder.buildType();
         busBuilder.buildModel();

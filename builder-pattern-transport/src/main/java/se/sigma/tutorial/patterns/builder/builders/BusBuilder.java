@@ -1,6 +1,6 @@
 package se.sigma.tutorial.patterns.builder.builders;
 
-public class BusBuilder extends AbstractTransportBuilder {
+public class BusBuilder extends TransportBuilder {
     private static final String TYPE = "Bus";
     private static final String MODEL = "Volvo B58";
     private static final String TIME_PLAN = "Sqrubben - Trondheim";
