@@ -1,6 +1,7 @@
-package se.sigma.tutorial.patterns.builder;
+package se.sigma.tutorial.patterns.builder.builders;
 
 import org.junit.Test;
+import se.sigma.tutorial.patterns.builder.Transport;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;

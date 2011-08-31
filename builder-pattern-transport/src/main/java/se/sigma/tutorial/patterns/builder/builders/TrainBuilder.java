@@ -1,12 +1,6 @@
-package se.sigma.tutorial.patterns.builder;
+package se.sigma.tutorial.patterns.builder.builders;
 
-public class TrainBuilder {
-    private Transport transport;
-
-
-    public void createNewTransport() {
-        transport = new Transport();
-    }
+public class TrainBuilder extends AbstractTransportBuilder{
 
     public void buildType(String type) {
         transport.setType(type);
@@ -18,9 +12,5 @@ public class TrainBuilder {
 
     public void buildTimePlan(String timePlan) {
         transport.setTimePlan(timePlan);
-    }
-
-    public Transport getTransport() {
-        return transport;
     }
 }
