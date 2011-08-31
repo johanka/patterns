@@ -1,4 +1,4 @@
-package se.sigma.tutorial.patterns.builder.se.sigma.tutorial.patterns.builder.director;
+package se.sigma.tutorial.patterns.builder.director;
 
 import se.sigma.tutorial.patterns.builder.Transport;
 import se.sigma.tutorial.patterns.builder.builders.AbstractTransportBuilder;
