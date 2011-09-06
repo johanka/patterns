@@ -10,6 +10,7 @@
         <module>maze</module>
         <module>abstract-factory-pattern-car</module>
         <module>builder-pattern-transport</module>
+        <module>factory-method</module>
     </modules>
     <dependencies>
         <dependency>
