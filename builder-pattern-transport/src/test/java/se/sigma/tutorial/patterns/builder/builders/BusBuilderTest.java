@@ -7,7 +7,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class BusBuilderTest {
-
     private static final String TYPE = "Bus";
     private static final String MODEL = "Volvo B58";
     private static final String TIME_PLAN = "Sqrubben - Trondheim";

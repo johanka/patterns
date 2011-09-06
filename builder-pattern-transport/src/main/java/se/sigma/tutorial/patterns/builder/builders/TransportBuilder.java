@@ -9,7 +9,6 @@ public abstract class TransportBuilder {
         transport = new Transport();
     }
 
-
     public Transport getTransport() {
         return transport;
     }
