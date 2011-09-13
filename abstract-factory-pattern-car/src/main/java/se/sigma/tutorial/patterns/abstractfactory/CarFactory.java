@@ -1,5 +1,6 @@
 package se.sigma.tutorial.patterns.abstractfactory;
 
-public interface CarFactory {
-    Car createCar();
+public abstract class CarFactory {
+    public abstract Car createCar();
 }
+
