@@ -1,0 +1,22 @@
+# Maven build artifacts
+target
+
+# Git cleanup residue
+bin
+
+# IntelliJ IDEA files and dirs
+*.iws
+.idea
+*.iml
+*.ipr
+
+# Eclipse files and dirs
+.settings
+.project
+.classpath
+
+# Backup files
+*.bak
+
+# Emacs backup file
+*.*~
