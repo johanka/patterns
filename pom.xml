@@ -11,6 +11,7 @@
         <module>abstract-factory-pattern-car</module>
         <module>builder-pattern-transport</module>
         <module>factory-method</module>
+        <module>prototype</module>
     </modules>
     <dependencies>
         <dependency>

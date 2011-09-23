@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>se.sigma.tutorial.patterns</groupId>
+    <artifactId>prototype</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>The Factory Method Pattern - ?? Impl</name>
+    <description>
+
+    </description>
+    <parent>
+        <groupId>se.sigma.tutorial</groupId>
+        <artifactId>patterns</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+</project>
