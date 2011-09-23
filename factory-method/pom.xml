@@ -5,9 +5,9 @@
     <artifactId>factory-method</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>The Factory Method Pattern - ?? Impl</name>
+    <name>The Factory Method Pattern - Training Session</name>
     <description>
-
+        A simple example of the Factory Method
     </description>
     <parent>
         <groupId>se.sigma.tutorial</groupId>
