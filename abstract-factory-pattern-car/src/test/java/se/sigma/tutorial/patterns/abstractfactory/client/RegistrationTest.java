@@ -34,6 +34,6 @@ public class RegistrationTest {
 
         Car actualCar = registration.registerNewCar();
 
-        assertThat(actualCar, is(LightCar.class));
+        assertThat(actualCar, instanceOf(LightCar.class));
     }
 }

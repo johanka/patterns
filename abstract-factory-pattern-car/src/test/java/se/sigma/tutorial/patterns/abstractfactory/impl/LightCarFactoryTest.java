@@ -6,6 +6,7 @@ import se.sigma.tutorial.patterns.abstractfactory.CarFactory;
 import se.sigma.tutorial.patterns.abstractfactory.impl.*;
 
 import static org.hamcrest.core.Is.is;
+import static org.hamcrest.core.IsInstanceOf.instanceOf;
 import static org.junit.Assert.assertThat;
 
 public class LightCarFactoryTest {
@@ -13,9 +14,8 @@ public class LightCarFactoryTest {
     @Test
     public void testCreateCar() {
         CarFactory lightCarFactory = new LightCarFactory();
-        LightCar expectedLightCar = new LightCar();
         Car actualLightCar = lightCarFactory.createCar();
 
-        assertThat(actualLightCar, is(expectedLightCar.getClass()));
+        assertThat(actualLightCar, instanceOf(LightCar.class));
     }
 }
