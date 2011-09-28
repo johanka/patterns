@@ -13,12 +13,9 @@ public abstract class TransportBuilder {
         return transport;
     }
 
-    public void buildType() {
-    }
+    public abstract void buildType();
 
-    public void buildModel() {
-    }
+    public abstract void buildModel();
 
-    public void buildTimePlan() {
-    }
+    public abstract void buildTimePlan();
 }

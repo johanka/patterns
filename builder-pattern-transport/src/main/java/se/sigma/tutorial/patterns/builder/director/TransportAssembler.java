@@ -15,6 +15,7 @@ public class TransportAssembler {
         builder.buildType();
         builder.buildModel();
         builder.buildTimePlan();
+
         return builder.getTransport();
     }
 }
