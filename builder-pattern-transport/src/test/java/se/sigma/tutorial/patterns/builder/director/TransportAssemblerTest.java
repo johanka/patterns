@@ -12,7 +12,6 @@ import static org.junit.Assert.assertThat;
 
 public class TransportAssemblerTest {
     private TransportAssembler transportAssembler;
-    private TransportBuilder builder;
 
     @Before
     public void setUp() {
@@ -21,9 +20,9 @@ public class TransportAssemblerTest {
 
     @Test
     public void testBuildTrain() {
-        builder = new TrainBuilder();
+        TransportBuilder builder = new TrainBuilder();
 
-        Transport transport = buildTransport();
+        Transport transport = buildTransport(builder);
 
         assertThat(transport.getType(), is("Train"));
         assertThat(transport.getModel(), is("X2"));
@@ -32,16 +31,16 @@ public class TransportAssemblerTest {
 
     @Test
     public void testBuildBus() {
-        builder = new BusBuilder();
+        TransportBuilder builder = new BusBuilder();
 
-        Transport transport = buildTransport();
+        Transport transport = buildTransport(builder);
 
         assertThat(transport.getType(), is("Bus"));
         assertThat(transport.getModel(), is("Volvo B58"));
         assertThat(transport.getTimePlan(), is("Sqrubben - Trondheim"));
     }
 
-    private Transport buildTransport() {
+    private Transport buildTransport(TransportBuilder builder) {
         transportAssembler.setTransportBuilder(builder);
         return transportAssembler.buildTransport();
     }
