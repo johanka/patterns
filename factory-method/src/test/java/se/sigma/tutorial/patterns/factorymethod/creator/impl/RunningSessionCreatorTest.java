@@ -11,8 +11,8 @@ public class RunningSessionCreatorTest {
     @Test
     public void testCreateRunningSession() {
         String expectedTrainingType = "running";
-        SessionCreator runningSession = new RunningSessionCreator();
-        TrainingSession trainingSession = runningSession.createSession();
+        SessionCreator sessionCreator = new RunningSessionCreator();
+        TrainingSession trainingSession = sessionCreator.createSession();
 
         String actualTrainingType = trainingSession.getType();
 
